@@ -1,0 +1,7 @@
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\bin\StackOverflow_API.dll
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\bin\StackOverflow_API.pdb
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\bin\Newtonsoft.Json.dll
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\bin\Newtonsoft.Json.xml
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\obj\Debug\StackOverflow_API.csprojResolveAssemblyReference.cache
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\obj\Debug\StackOverflow_API.dll
+D:\My Work\Testing\Kiosk IT System\StackOverflow_API\StackOverflow_API\obj\Debug\StackOverflow_API.pdb
