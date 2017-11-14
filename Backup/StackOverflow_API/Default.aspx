@@ -19,7 +19,6 @@
         <br />
         <asp:Button ID="btnRefresh" CssClass="btn btn-sm btn-default" runat="server" Text="Refresh"
             OnClick="btnRefresh_Click" />
-        <asp:Label ID="lblMessages" CssClass="pull-right" runat="server" Text="" ForeColor="Red"></asp:Label>
         <br />
         <br />
         <div style="height:750px;overflow:scroll">

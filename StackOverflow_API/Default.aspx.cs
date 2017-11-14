@@ -1,5 +1,9 @@
 ﻿using System;
 using StackOverflow_API.Models;
+using System.Threading.Tasks;
+using System.Threading;
+using System.IO;
+
 namespace StackOverflow_API
 {
     public partial class _Default : System.Web.UI.Page
@@ -8,7 +12,8 @@ namespace StackOverflow_API
         {
             if (!IsPostBack)
             {
-                GetQuestInfo();
+                string strResult = GetQuestInfo();
+                lblMessages.Text = strResult.ToString();
             }
         }
 
@@ -22,21 +27,32 @@ namespace StackOverflow_API
 
         }
 
-        public void GetQuestInfo()
+        private string  GetQuestInfo()
         {
-            string URL = "https://api.stackexchange.com/2.2/questions?pagesize=50&order=desc&sort=creation&site=stackoverflow";
-            string jsonData = RequestWebData(URL);
+            try
+            {
+                string URL = "https://api.stackexchange.com/2.2/questions?pagesize=50&order=desc&sort=creation&site=stackoverflow";
+                string jsonData = RequestWebData(URL);
 
-            var alldatas = SeQuestionInfoBase.FromJson(jsonData);
+                var alldatas = SeQuestionInfoBase.FromJson(jsonData);
 
-            GvQuestions.DataSource = alldatas.questions;
-            GvQuestions.DataBind();
-
+                GvQuestions.DataSource = alldatas.questions;
+                GvQuestions.DataBind();
+                return "Page updated @ "+ DateTime.Now.ToString();
+               
+            }
+            catch (Exception ex)
+            {
+                 return "Error Occured " + ex.Message;
+               
+            }
         }
 
-        protected void btnRefresh_Click(object sender, EventArgs e)
+        protected  void btnRefresh_Click(object sender, EventArgs e)
         {
-            GetQuestInfo();
+            string strResult = GetQuestInfo();
+            lblMessages.Text = strResult.ToString();
+            
         }
     }
 

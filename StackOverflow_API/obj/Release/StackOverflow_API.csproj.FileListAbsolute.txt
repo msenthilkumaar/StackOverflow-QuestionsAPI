@@ -1,0 +1,9 @@
+E:\Projects\testing\KisokIT\StackOverflow_API\bin\StackOverflow_API.dll.config
+E:\Projects\testing\KisokIT\StackOverflow_API\bin\StackOverflow_API.dll
+E:\Projects\testing\KisokIT\StackOverflow_API\bin\StackOverflow_API.pdb
+E:\Projects\testing\KisokIT\StackOverflow_API\bin\Newtonsoft.Json.dll
+E:\Projects\testing\KisokIT\StackOverflow_API\bin\Newtonsoft.Json.xml
+E:\Projects\testing\KisokIT\StackOverflow_API\obj\Release\StackOverflow_API.csprojResolveAssemblyReference.cache
+E:\Projects\testing\KisokIT\StackOverflow_API\obj\Release\StackOverflow_API.csproj.CoreCompileInputs.cache
+E:\Projects\testing\KisokIT\StackOverflow_API\obj\Release\StackOverflow_API.dll
+E:\Projects\testing\KisokIT\StackOverflow_API\obj\Release\StackOverflow_API.pdb
