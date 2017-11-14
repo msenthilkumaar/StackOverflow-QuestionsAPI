@@ -13,7 +13,7 @@
         <br />
         <div class="alert alert-info">
             <h4 style="text-align: center">
-                Stack Overflow API- Questions
+                Stack Overflow Quesions API- Kiosk IT System Trading LLC
             </h4>
         </div>
         <br />
